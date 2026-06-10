@@ -8,44 +8,50 @@
     <title>Help Nexus - Emergency Response Hub</title>
 </head>
 <body>
-    <header class="navbar">
-        <div class="logo-section">
-            <img src="logo (1).png" alt="Help Nexus" class="logo-img">
-            <h3 class="logo-text">HELP NEXUS</h3>
+        <header class="navbar">
+    <div class="logo-section">
+        <img src="logo (1).png" alt="Help Nexus" class="logo-img">
+        <h3 class="logo-text">HELP NEXUS</h3>
+    </div>
+    <nav class="nav-menu">
+        <a href="#emergency" class="nav-link">
+            <i class="fas fa-phone"></i> Emergency Contacts
+        </a>
+        <a href="#disaster" class="nav-link">
+            <i class="fas fa-exclamation-triangle"></i> Disaster Response
+        </a>
+        <a href="#alerts" class="nav-link">
+            <i class="fas fa-bell"></i> Real-Time Alerts
+        </a>
+        <a href="#safety" class="nav-link">
+            <i class="fas fa-shield"></i> Stay Safe
+        </a>
+    </nav>
+    <div class="navbar-actions">
+        <div class="search-bar">
+            <input type="text" placeholder="Search resources..." class="search-input">
+            <i class="fas fa-search"></i>
         </div>
-        <nav class="nav-menu">
-            <a href="#emergency" class="nav-link">
-                <i class="fas fa-phone"></i> Emergency Contacts
-            </a>
-            <a href="#disaster" class="nav-link">
-                <i class="fas fa-exclamation-triangle"></i> Disaster Response
-            </a>
-            <a href="#alerts" class="nav-link">
-                <i class="fas fa-bell"></i> Real-Time Alerts
-            </a>
-            <a href="#safety" class="nav-link">
-                <i class="fas fa-shield"></i> Stay Safe
-            </a>
-        </nav>
-        <div class="navbar-actions">
-            <div class="search-bar">
-                <input type="text" placeholder="Search resources..." class="search-input">
-                <i class="fas fa-search"></i>
-            </div>
-            <button class="theme-toggle" onclick="toggleTheme()" title="Toggle Dark Mode">
-                <i class="fas fa-moon"></i>
-            </button>
-            <div class="auth-buttons">
-                <a class="btn btn-login" href="#">Login</a>
-                <a class="btn btn-signup" href="#">Sign Up</a>
-            </div>
-            <div class="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
+        <button class="theme-toggle" onclick="toggleTheme()" title="Toggle Dark Mode">
+            <i class="fas fa-moon"></i>
+        </button>
+
+        <!-- Emergency Button -->
+        <a href="india_emergency_contacts.html" class="btn btn-emergency">
+            <i class="fas fa-phone-alt"></i> Emergency
+        </a>
+
+        <div class="auth-buttons">
+            <a class="btn btn-login" href="#">Login</a>
+            <a class="btn btn-signup" href="#">Sign Up</a>
         </div>
-    </header>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+</header>
 
     <section class="hero">
         <div class="hero-content">
